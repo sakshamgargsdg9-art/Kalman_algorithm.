@@ -1,0 +1,25 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "type": "shell",
+            "label": "Build C++ Multi-File Project",
+            "command": "g++",
+            "args": [
+                "-std=c++17",
+                "src/main.cpp",
+                "src/Matrix.cpp",
+                "src/PCA.cpp",
+                "src/KMeans.cpp",
+                "-Iinclude",
+                "-o",
+                "DataTool.exe"
+            ],
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            },
+            "problemMatcher": ["$gcc"]
+        }
+    ]
+}

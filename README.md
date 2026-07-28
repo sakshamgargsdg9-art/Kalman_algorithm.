@@ -24,7 +24,7 @@ A lightweight Python implementation of **Principal Component Analysis (PCA)** an
 
 ---
 
------------------------------------------HOW TO SUN THIS CODE FOR DIFFERENT INPUTS-------------------------------------------
+-----------------------------------------HOW TO RUN THIS CODE FOR DIFFERENT INPUTS-------------------------------------------
 
 pip install numpy matplotlib
 
